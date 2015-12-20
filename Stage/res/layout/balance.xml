@@ -1,0 +1,77 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="example.stage.MainActivity" >
+
+        <!-- Header  Starts -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/background"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sbg" />
+        </FrameLayout>
+        <!-- Header Ends -->
+        
+        <TableLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TableRow >
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="41dp"
+                    android:textColor="#0099FF"
+                    android:text="@string/ntext"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="41dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </TableRow>
+            
+             <Button
+                    android:id="@+id/button2"
+                    android:layout_width="270dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/buttonshape"
+                    android:gravity="center"
+                    android:text="@string/rech"
+                    android:onClick="recharge"
+					android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            <Button
+                    android:id="@+id/button1"
+                    android:layout_width="270dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/buttonshape"
+                    android:gravity="center"
+                    android:text="@string/backr"
+                    android:onClick="backer"
+					android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            
+            
+            
+        </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="example.stage.MainActivity" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sbg" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:onClick="ticketboook"
+        android:text="@string/book" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="175dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="@string/history" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="@string/balance" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="@string/changepassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="@string/currentTicket" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="@string/logOff" />
+
+</RelativeLayout>

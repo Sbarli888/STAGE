@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stage</string>
+    <string name="stage">S.T.A.G.E</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- background content description -->
+    <string name="background">bacground</string>
+
+    <!-- first page -->
+    <string name="signin">Signin</string>
+    <string name="signup">Signup</string>
+
+    <!-- for sign in page -->
+    <string name="login1">Login Page</string>
+    <string name="mobnologin">Mobile No</string>
+    <string name="passwordlogin">Password</string>
+    <string name="loginbutton">Login</string>
+
+    <!-- for sign up page -->
+    <string name="signup1">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="cnfpassword">Confirm Password</string>
+    <string name="Login">Login</string>
+
+    <!-- for main app screen -->
+    <string name="book">Book Ticket</string>
+    <string name="history">Booking History</string>
+    <string name="balance">Check Balance</string>
+    <string name="changepassword">Change password</string>
+    <string name="currentTicket">Current Ticket</string>
+    <string name="logOff">Log Out</string>
+
+    <!-- for join page -->
+    <string name="join">Welcome to STAGE. Click to Continue</string>
+
+    <!-- for book ticket page -->
+    <string name="bookticket">Book Ticket</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="noticket">Number of Ticket</string>
+    <string name="typeofticket">Type of Ticket</string>
+    <string name="single">Single</string>
+    <string name="ret">Return</string>
+    <string name="qr">Click to Scan QR</string>
+
+    <!-- For spinner -->
+    <string name="dest">Choose Destination</string>
+
+    <string-array name="items">
+        <item>ChengalpattuJunction</item>
+        <item>Paranur</item>
+        <item>SingaperumalKoil</item>
+        <item>MaraimalaiNagar</item>
+        <item>Kattangulattur</item>
+        <item>Potheri</item>
+        <item>Guduvancheri</item>
+        <item>Urappakkam</item>
+        <item>Vandalur</item>
+        <item>Perungulatur</item>
+        <item>Tambaram</item>
+        <item>TambaramSanatorium</item>
+        <item>Chrompet</item>
+        <item>Pallavaram</item>
+        <item>Tirusulam</item>
+        <item>Minambakkam</item>
+        <item>Palavanthangal</item>
+        <item>StThomasMount</item>
+        <item>Guindy</item>
+        <item>Saidapet</item>
+        <item>Mambalam</item>
+        <item>Kodambakkam</item>
+        <item>Nungambakkam</item>
+        <item>ChennaiChetpet</item>
+        <item>ChennaiEgmore</item>
+        <item>ChennaiPark</item>
+        <item>ChennaiFort</item>
+        <item>ChennaiBeach</item>
+    </string-array>
+
+    <!-- for booking history page -->
+    <string name="bookHis">Booking History</string>
+    
+    <!-- for qr encode -->
+    <string name="qrEncode">qrCode</string>
+
+    <!-- for change password activity -->
+    <string name="passwd">Enter New Password</string>
+    <string name="change">Change Password</string>
+
+    <!-- for balance upload page -->
+    
+    <string name="text">Ticket Booked. Ticket Charge is:</string>
+    <string name="backr">Back</string>
+
+    <!-- for balance page -->
+    <string name="blance">Balance</string>
+    <string name="ntext"> Balance is:</string>
+    <string name="rech">Click to Recharge</string>
+    
+    <!-- for all the payment activity -->
+    <string name="skipbtn">Skip</string>
+    <string name="mal">Email</string>
+    <string name="pwd">Password</string>
+	<string name="neU">New to PayPal? Sign Up</string>
+	<string name="forgot">Forgot Password?</string>
+	<string name="cname">Card Number</string>
+	<string name="cstring">124 1234 1234 1234</string>
+	<string name="exp">Expires</string>
+	<string name="my">MM/YY</string>
+	<string name="cvv">CVV</string>
+	<string name="cvvText">123</string>
+	<string name="done">Done</string>
+</resources>
